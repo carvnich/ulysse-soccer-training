@@ -1,0 +1,27 @@
+[
+  {
+    "fullName": "John Smith",
+    "email": "john.smith@university.edu",
+    "password": "$2b$10$6jM7.1RcsQF2VqNpRXgvvOH6NzMgfYXOEP8j9fQFkE4XQKmL2PkCi"
+  },
+  {
+    "fullName": "Emily Johnson",
+    "email": "emily.johnson@university.edu",
+    "password": "$2b$10$8kM2.1RcsQF2VqNpRXgvvOH6NzMgfYXOEP8j9fQFkE4XQKmL2PkCi"
+  },
+  {
+    "fullName": "Michael Brown",
+    "email": "michael.brown@university.edu",
+    "password": "$2b$10$9nN3.1RcsQF2VqNpRXgvvOH6NzMgfYXOEP8j9fQFkE4XQKmL2PkCi"
+  },
+  {
+    "fullName": "Sarah Wilson",
+    "email": "sarah.wilson@university.edu",
+    "password": "$2b$10$2pO4.1RcsQF2VqNpRXgvvOH6NzMgfYXOEP8j9fQFkE4XQKmL2PkCi"
+  },
+  {
+    "fullName": "David Lee",
+    "email": "david.lee@university.edu",
+    "password": "$2b$10$4kL2.1RcsQF2VqNpRXgvvOH6NzMgfYXOEP8j9fQFkE4XQKmL2PkCi"
+  }
+] 
