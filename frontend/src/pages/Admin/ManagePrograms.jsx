@@ -1,0 +1,7 @@
+const ManagePrograms = () => {
+	return (
+		<div>ManagePrograms</div>
+	);
+};
+
+export default ManagePrograms;
