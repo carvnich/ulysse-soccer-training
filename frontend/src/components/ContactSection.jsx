@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
 
 const ContactSection = () => {
 	const [formData, setFormData] = useState({ firstName: '', lastName: '', email: '', phone: '', message: '' });
@@ -30,49 +31,33 @@ const ContactSection = () => {
 							<div className="space-y-4">
 								<div className="flex items-start gap-3">
 									<div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-										<svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-											<path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-										</svg>
+										<MdLocationOn className="w-3 h-3 text-white" />
 									</div>
 									<div>
 										<p className="font-medium text-black">Address</p>
-										<p className="text-black">123 Soccer Field Lane, Sports City, SC 12345</p>
+										<p className="text-black">93 McGuiness Drive, Brantford, ON N3T 6R6</p>
 									</div>
 								</div>
 
 								<div className="flex items-start gap-3">
 									<div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-										<svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-											<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
-										</svg>
+										<MdPhone className="w-3 h-3 text-white" />
 									</div>
 									<div>
 										<p className="font-medium text-black">Phone</p>
-										<p className="text-black">(555) 123-GOAL</p>
+										<p className="text-black">(519) 865-5633</p>
 									</div>
 								</div>
 
 								<div className="flex items-start gap-3">
 									<div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-										<svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-											<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-											<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-										</svg>
+										<MdEmail className="w-3 h-3 text-white" />
 									</div>
 									<div>
 										<p className="font-medium text-black">Email</p>
-										<p className="text-black">info@ustsoccer.com</p>
+										<p className="text-black">coach@ulyssesoccertraining.com</p>
 									</div>
 								</div>
-							</div>
-						</div>
-
-						<div>
-							<h3 className="text-xl font-semibold text-black mb-4">Training Hours</h3>
-							<div className="space-y-2 text-black">
-								<p><span className="font-medium">Monday - Friday:</span> 4:00 PM - 8:00 PM</p>
-								<p><span className="font-medium">Saturday:</span> 9:00 AM - 5:00 PM</p>
-								<p><span className="font-medium">Sunday:</span> 10:00 AM - 4:00 PM</p>
 							</div>
 						</div>
 					</div>

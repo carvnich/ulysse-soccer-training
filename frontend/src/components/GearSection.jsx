@@ -15,9 +15,9 @@ const GearSection = () => {
 				<img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Soccer Field Background" className="w-2/3 h-full object-cover opacity-20" />
 			</div>
 			<div className="max-w-7xl mx-auto px-6 relative z-10">
-				<div className="text-center mb-16">
-					<h2 className="text-4xl font-bold text-black mb-4">Soccer Gear</h2>
-					<p className="text-xl text-black">Discover our collection of premium soccer apparel</p>
+				<div className="text-center mb-12">
+					<h2 className="text-4xl font-bold text-black mb-2">Soccer Gear</h2>
+					<p className="text-lg text-black">Discover our collection of premium soccer apparel</p>
 				</div>
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 					{gearItems.map((item) => (

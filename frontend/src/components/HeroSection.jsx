@@ -1,7 +1,17 @@
-import React from 'react';
-import EmailInput from './EmailInput'; // Adjust path as needed
+import EmailInput from './EmailInput';
+import heroOne from '../assets/hero/hero-1.jpg';
+import heroTwo from '../assets/hero/hero-2.jpg';
+import heroThree from '../assets/hero/hero-3.jpg';
+import heroFour from '../assets/hero/hero-4.jpg';
 
 const HeroSection = () => {
+	const heroImages = [
+		{ src: heroOne, alt: 'Soccer training field' },
+		{ src: heroTwo, alt: 'Youth soccer players' },
+		{ src: heroThree, alt: 'Soccer ball on field' },
+		{ src: heroFour, alt: 'Soccer team celebration' }
+	];
+
 	return (
 		<div className="py-20">
 			<div className="max-w-7xl mx-auto px-6">
@@ -27,12 +37,14 @@ const HeroSection = () => {
 					{/* Right Side - Images */}
 					<div className="grid grid-cols-2 gap-4">
 						<div className="space-y-4">
-							<img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Soccer training field" className="w-full h-64 object-cover rounded-lg shadow-lg" />
-							<img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Youth soccer players" className="w-full h-48 object-cover rounded-lg shadow-lg" />
+							{heroImages.slice(0, 2).map((image, index) => (
+								<img key={index} src={image.src} alt={image.alt} className={"w-full h-48 object-cover rounded-lg shadow-lg"} />
+							))}
 						</div>
 						<div className="space-y-4 mt-8">
-							<img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Soccer ball on field" className="w-full h-48 object-cover rounded-lg shadow-lg" />
-							<img src="https://images.unsplash.com/photo-1560272564-c83b66b1ad12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Soccer team celebration" className="w-full h-64 object-cover rounded-lg shadow-lg" />
+							{heroImages.slice(2, 4).map((image, index) => (
+								<img key={index + 2} src={image.src} alt={image.alt} className={"w-full h-48 object-cover rounded-lg shadow-lg"} />
+							))}
 						</div>
 					</div>
 

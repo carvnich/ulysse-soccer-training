@@ -95,8 +95,8 @@ const StaffSpotlightSection = () => {
 		<div className="bg-gray-100 py-20">
 			<div className="max-w-7xl mx-auto px-6">
 				<div className="text-center mb-12">
-					<p className="text-lg text-black mb-2">Meet Our Team</p>
-					<h2 className="text-4xl font-bold text-black">Excellence in Action</h2>
+					<h2 className="text-4xl font-bold text-black">Meet Our Team</h2>
+					<p className="text-lg text-black mb-2">Excellence in Action</p>
 				</div>
 				<div className="flex justify-center mb-8">
 					<div className="bg-white rounded-lg p-1 shadow-lg">
